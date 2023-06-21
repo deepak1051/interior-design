@@ -8,7 +8,7 @@ const Feed = ({ title, desc, url }) => {
         <p>{desc}</p>
       </div>
       <div className="feed_img-container">
-        <img src={url} alt="" />
+        <img src={url} alt="luxury interior design service" />
       </div>
     </div>
   );

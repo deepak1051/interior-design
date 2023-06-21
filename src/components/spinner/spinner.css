@@ -14,22 +14,26 @@
   margin-top: 2rem;
   position: relative;
 }
+
 .spinner-title {
   position: absolute;
   top: 1rem;
 
   text-align: center;
 }
-.spinner-title h1 {
+
+.spinner-title h2 {
   font-size: 1.4rem;
   color: var(--primary);
   font-weight: bold;
   text-transform: capitalize;
 }
+
 .spinner-title p {
   color: var(--gray);
   font-size: 1.2rem;
 }
+
 .box {
   position: relative;
   height: 240px;
@@ -38,6 +42,7 @@
   animation: animate 20s linear infinite;
   -webkit-animation: animate 20s linear infinite;
 }
+
 @keyframes animate {
   0% {
     transform: perspective(1000px) rotateY(0deg);
@@ -46,6 +51,7 @@
     -ms-transform: perspective(1000px) rotateY(0deg);
     -o-transform: perspective(1000px) rotateY(0deg);
   }
+
   100% {
     transform: perspective(1000px) rotateY(360deg);
     -webkit-transform: perspective(1000px) rotateY(360deg);
@@ -54,14 +60,15 @@
     -o-transform: perspective(1000px) rotateY(360deg);
   }
 }
+
 .box span img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  -webkit-box-reflect: below 0px
-    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.123));
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.123));
 }
+
 .box span {
   position: absolute;
   top: 0;
@@ -76,6 +83,7 @@
   -ms-transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
   -o-transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
 }
+
 /* .box span; */
 /* footer {
   position: absolute;
@@ -89,14 +97,17 @@
     height: 180px;
     width: 180px;
   }
+
   .spinner-title h1 {
     font-size: 2rem;
     color: var(--primary);
   }
+
   .spinner-title p {
     font-size: 1.2rem;
   }
 }
+
 @media screen and (min-width: 1200) {
   .box {
     height: 340px;

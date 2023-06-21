@@ -12,6 +12,7 @@
     url('/public/images/int1.jpg') center/cover no-repeat;
   color: white; */
 }
+
 #hero-video {
   position: absolute;
   height: 100%;
@@ -22,11 +23,14 @@
   /* bottom: 0;
   right: 0; */
 }
+
 .hero h1 {
   font-size: 1.6rem;
 }
+
 .hero-wrapper {
   position: absolute;
+
   bottom: 0;
   left: 1rem;
   top: 0;
@@ -40,9 +44,10 @@
   /* background-color: red; */
   color: white;
   border-radius: 1rem;
-  height: 10rem;
+  height: 15rem !important;
   padding: 0.5rem 1rem;
 }
+
 .hero-wrapper p {
   font-size: 1.2rem;
 }
@@ -55,10 +60,12 @@
   .hero h1 {
     font-size: 2rem;
   }
+
   .hero-text {
     width: 70%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .hero h1 {
     font-size: 1.2rem;

@@ -26,8 +26,8 @@ const ContactForm = () => {
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-1/2 md:w-1/2 bg-blue-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <img
-            src="https://www.cherryhill.in/img/bny/bny9.jpg"
-            alt=""
+            src="/images/contact us/contact interior karwalo.webp"
+            alt="contact interior karwalo"
             style={{
               position: 'absolute',
               top: 0,

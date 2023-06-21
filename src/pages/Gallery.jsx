@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <div>
       <main>
-        <div className="gallery-title">Projects Gallery</div>
+        <h2 className="gallery-title">Projects Gallery</h2>
         <div className="grid-container container">
           <div className="column">
             <img

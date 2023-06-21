@@ -14,7 +14,7 @@ const Header = ({ type }) => {
     try {
       const hello = jwtDecode(localStorage.getItem('blogToken'));
       setToken(hello);
-    } catch (error) {}
+    } catch (error) { }
   }, []);
   const handleLogout = () => {
     localStorage.removeItem('blogToken');
@@ -28,7 +28,7 @@ const Header = ({ type }) => {
         {/* <img src="https://responsively.app/assets/img/logo.svg" /> */}
 
         <Link to="/home">
-          <img src="/interior-design-logo.svg" alt="" />
+          <img src="/interior-design-logo.svg" alt="interior karwalo logo" />
         </Link>
       </div>
       <nav className="nav">
@@ -50,44 +50,44 @@ const Header = ({ type }) => {
               <div className="dropdown-content">
                 <Link to="/services/corporate-office">
                   <img
-                    src="https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt=""
+                    src="/images/services menu/corporate-office.webp"
+                    alt="corporate office"
                   />
 
                   <p>Corporate Office Interior Contractor</p>
                 </Link>
                 <Link to="/services/turnkey-interior">
                   <img
-                    src="https://images.pexels.com/photos/271805/pexels-photo-271805.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt=""
+                    src="/images/services menu/turkey-interior.webp"
+                    alt="turkey interior"
                   />
                   <p>Turnkey Interiors Contractor</p>
                 </Link>
                 <Link to="/services/interior-design">
                   <img
-                    src="https://images.pexels.com/photos/210552/pexels-photo-210552.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                    alt=""
+                    src="/images/services menu/interior-designs-living-room.webp"
+                    alt="interior design consultant"
                   />
                   <p>Interior Design Consultant</p>
                 </Link>
                 <Link to="/services/office-furniture">
                   <img
-                    src="https://images.pexels.com/photos/276510/pexels-photo-276510.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                    alt=""
+                    src="/images/services menu/office-furniture.webp"
+                    alt="office furniture"
                   />
                   <p>Office Furniture</p>
                 </Link>
                 <Link to="/services/gypsum-partition">
                   <img
-                    src="https://images.pexels.com/photos/6510967/pexels-photo-6510967.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                    alt=""
+                    src="/images/services menu/gypsum-partition.webp"
+                    alt="gypsum partition"
                   />
                   <p>Gypsum Partition Contractor</p>
                 </Link>
                 <Link to="/services/gypsum-false">
                   <img
-                    src="https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                    alt=""
+                    src="/images/services menu/gypsum-false-ceiling-contractor.webp"
+                    alt="gypsum false ceiling contractor"
                   />
                   <p>Gypsum False Ceiling Contractor</p>
                 </Link>
