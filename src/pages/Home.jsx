@@ -1,19 +1,19 @@
-import React from 'react';
-import Content from '../components/content/Content';
-import Feed from '../components/feed/Feed';
-import Hero from '../components/hero/Hero';
+import React from "react";
+import Content from "../components/content/Content";
+import Feed from "../components/feed/Feed";
+import Hero from "../components/hero/Hero";
 
-import Footer from '../components/footer/Footer';
-import Spinner from '../components/spinner/Spinner';
+import Footer from "../components/footer/Footer";
+import Spinner from "../components/spinner/Spinner";
 
-import Gallery from './Gallery';
-import Testimonial from '../components/testimonials/Testimonial';
-import Teams from '../components/teams/Teams';
-import ContactForm from '../components/contact-form/ContactForm';
+import Gallery from "./Gallery";
+import Testimonial from "../components/testimonials/Testimonial";
+import Teams from "../components/teams/Teams";
+import ContactForm from "../components/contact-form/ContactForm";
 
 const Home = ({ toggleTheme }) => {
   return (
-    <div style={{ transition: 'all 1s ease-in-out' }}>
+    <div style={{ transition: "all 1s ease-in-out" }}>
       {/* <Header toggleTheme={toggleTheme} /> */}
       <div data-aos="zoom-in-up">
         <Hero />
